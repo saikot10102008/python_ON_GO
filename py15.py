@@ -11,3 +11,6 @@ str_a = "a string"
 print("a" in str_a)
 print("string" in str_a)
 print("b" in str_a)
+
+
+# membership operator only works for iterable data types
