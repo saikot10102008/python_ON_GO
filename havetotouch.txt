@@ -1,1 +1,4 @@
 1. difference between methods and functions
+2. tuple unpacking
+3. a = (1) ; what happens in this case?
+4. a = (1,) ; what happens in this case?
