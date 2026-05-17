@@ -38,6 +38,7 @@ print('keys list ->', list(d.keys()))
 # 4) update(other)
 # - Merge another mapping into `d`. Existing keys are overwritten.
 print('\nupdate demo:')
+print(d)
 d.update({'b': 20, 'd': 4})
 print('after update ->', d)
 
