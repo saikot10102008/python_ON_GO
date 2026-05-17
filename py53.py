@@ -10,6 +10,8 @@ for i in a:
         d[i] += 1 # if the key exists then increases the value by 1
     else:
         d[i] = 1 # creates a new key if it doesn't exist and sets its value to 1
+
+print(d)
     
 
 
