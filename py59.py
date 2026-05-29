@@ -19,8 +19,8 @@ def safe_divide(a, b):
 	except ValueError:
 		print("Error: non-numeric input")
 		return None
-	except Exception as e:
-		print(f"The Exception: {e}")
+	except Exception as a:
+		print(f"The Exception: {a}")
 	else:
 		return result
 	finally:
@@ -31,4 +31,3 @@ if __name__ == "__main__":
 	print("10 / 2 =", safe_divide(10, 2))
 	print("10 / 0 =", safe_divide(10, 0))
 	print("'x' / 1 =", safe_divide('x', 1))
-
